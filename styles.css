@@ -1,0 +1,21 @@
+
+.box{
+    width: 300px;
+    /* height: auto; */
+    border-radius: 10px;
+    overflow: hidden;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); */
+}
+
+.btn-dark a:hover{
+    color: white;
+}
+
+.btn-dark{
+    border: 1px solid white;
+}
+
+

@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif !important;
+}
+body{
+	background-color: black !important;
+    font-size: 2rem;
+}
+
+
+#kont{
+	color: White 	!important;
+	font-size: 130px 	!important;
+	line-height: 70vh !important;
+	font-weight: 600;
+	
+}
+
+@media only screen and (max-width: 400px){
+#kont{
+	font-size: 65px !important;
+}	
+}
+
+span{
+	display: inline-block 	!important;
+	font-family: 'Bebas Neue', cursive !important;
+    color: black !important;
+    opacity: 0.1;
+    animation: kak-animation ease-in-out 7s infinite;
+}
+.navbar-dark{
+	background: black;
+}
+span.poephol{
+opacity: 1;
+}
+@keyframes kak-animation{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+
+/* IMPORTED FROM LAST PROJECT*/
+.text{
+	-webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+
+.card{
+	 width: 100% !important;
+    height: 18rem !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+  margin-bottom: 1rem !important;
+    border: 2px solid black !important;
+}
+.netflix{
+font-family: 'Bebas Neue', cursive !important;
+}
+.overlay{
+	background: rgba(0, 0, 0, 0.55);
+	width: 100%;
+	height: 100%;
+	top: 0;
+    left: 0;
+    -webkit-transition: all ease .3s;
+    transition: all ease .3s;
+    text-align: center;
+  
+}
+
+.overlay:hover{
+    background-color: rgba(0,0,0,.8);
+    -webkit-transition: all ease .3s;
+    transition: all ease .3s;
+}
+.adad{
+	text-decoration: none;
+	color: white;
+}
+
+/*CUSTOM NAVBAR*/
+.navbar-toggler-icon{
+
+}
+.navbar-toggler{
+	border-radius: 20px;
+}
+.navbar-brand{
+	font-weight: 600;
+	font-size: 30px !important;
+
+}
+.nav-item{
+	justify-content: space-between !important;
+	letter-spacing: 3px !important;
+	font-weight: 300 !important;
+}
+
+/*Welcome SECTION CSS*/
+.gradient{
+		 background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)
+}
+.page-header{
+    margin-top: 4rem !important;
+    font-size: 2.25rem !important;
+}
+.hhhh{
+font-weight: 600;
+font-size: 50px;
+}
+.wel-text{
+	font-size: 20px !important;
+	color: black !important;
+	font-weight:  400 !important;
+}
+
+
+/*.card{
+color: white;
+margin-top: 30vh;
+background: black !important;
+height: 70vh !important;
+}*/
+
+.about-imgss{
+	border-radius: 20px;
+	border: 1px solid black;
+	width: 300px;
+	height: 300px;
+}
+
+/*REVEAl On scroll*/
+.reveal{
+	position: relative;
+	transform: translateY(150px);
+	opacity: 0;
+	transition: all 2s ease;
+}
+.reveal.active{
+	transform: translateY(0);
+	opacity: 1;
+}
+
+/*Services css*/
+.kakgat{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+
+.firstcontent a{
+    background: url(icon1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.title a {
+    font-size: 16px ;
+    color: #333 ;
+    text-decoration: none;
+}
+
+.firstcontent a {
+    width: 100%;
+    height: 150px;
+    display: block;
+    line-height: 150px;
+    padding-top: 50px;
+    margin-top: 50px;
+    text-decoration: none;
+    
+}
+
+#title {
+    font-size: 16px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+
+.secondcontent a{
+    background: url(icon1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.secondcontent a {
+    width: 100%;
+    height: 150px;
+    display: block;
+    line-height: 150px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.thirdcontent a{
+    background: url(icon1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.thirdcontent a {
+    width: 100%;
+    height: 150px;
+    display: block;
+    line-height: 150px;
+    padding-top: 50px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.bottonlinks{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: century gothic;
+    color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/*img*/
+.img-fluid{
+   height: 400px !important;
+    border-radius: 10px !important;
+}
+
+
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: none !important;
+    line-height: 1;
+    color: black !important;
+    background-color: transparent;
+      border: none !important;
+    border-radius: 0px !important;
+    transition: none !important;
+}
